@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entangle_software_private_limited</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/utils.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+     <section class="header">
+         <nav>
+             <a href="index.html"><img src="images/logo.jpeg"></a>
+             <div class="nav-links font2" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="#">HOME</a></li>
+                     <li><a href="#">ABOUT</a></li>
+                     <li><a href="#">SERVICES</a></li>
+                     <li><a href="#">CAREERS</a></li>
+                     <li><a href="#">BLOG</a></li>
+                     <li><a href="#">CONTACT</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars"  onclick="showMenu()"> </i>
+         </nav>
+         <hr>
+        <div class="text-box font2">
+            <h1>We are entangled with you!</h1>
+            <p>We are building Software to help.</p>
+            <a href="#" class="contact-btn">Contact Us</a>
+        </div>
+     </section>
+     <hr>
+     <section class="services">
+         <!-- Services-->
+         <section class="services font2">
+             <h1>Featured Services</h1>
+            <div class="row">
+                <div class="services-col">
+                    <img src="images/magento2.jpeg">
+                    <a href="#">Learn More</a> 
+                </div>
+                <div class="services-col">
+                    <img src="images/nodejs.png">
+                    <a href="#">Learn More</a> 
+                </div>
+            </div>
+         </section>
+         <hr size="2">
+         <section class="footer font2">
+             <div class="container">
+                 <div class="foot-row">
+                     <div class="foot-col">
+                         <h4>Contact Us</h4>
+                         <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> address, city, INDIA</li>
+                            <li><i class="fas fa-phone-alt"></i> +91 0000-000-000</li>
+                            <li><i class="fas fa-envelope"></i> contact@gmail.com</li>
+                            <li><i class="fas fa-clock"></i> Mon-Fri 8:00 AM to 5:00 PM</li>
+
+                        </ul>
+                        
+                     </div>
+                     <div class="foot-col">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                     </div>
+                    </div>
+                    <div class="foot-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Terms &Conditions</a></li>
+                            <li><a href="#">Privacy Policies</a></li>
+
+                        </ul>
+                 </div>
+                 
+             </div>
+             <div class="copyright">
+                &copy;Entangle_software_private_limited | All right reserved.
+            </div>
+         </section>
+
+     </section>
+     <!--- javaScript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

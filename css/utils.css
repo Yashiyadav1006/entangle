@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Corinthia:wght@400;700&family=Irish+Grover&family=Meow+Script&family=Merriweather:ital,wght@1,300&family=Oswald:wght@300&family=Quicksand:wght@700&family=Roboto&display=swap");
+:root {
+  --main-bg-color2: #bb3624;
+  --main-bg-color1: #1a214d;
+  --font1: "Oswald", sans-serif;
+  --font2: "Quicksand", sans-serif;
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
