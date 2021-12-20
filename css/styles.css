@@ -111,9 +111,9 @@ nav .fa {
     position: absolute;
     background: var(--main-bg-color1);
     height: 70vh;
-    width: 200px;
+    width: 150px;
     top: 0;
-    right: -200px;
+    right: 0px;
     text-align: left;
     z-index: 2;
     transition: 1s;
